@@ -1,0 +1,34 @@
+:root {
+  font-family: sans-serif;
+}
+
+main {
+  max-width: 85ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: "Amatic SC", cursive;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-margin, 1rem);
+}
+
+.instagram-feed ul {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
