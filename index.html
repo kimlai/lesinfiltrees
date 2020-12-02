@@ -31,7 +31,7 @@
         <ul role="list">
           {% for photo in instagramFeed %}
           <li>
-            <img src="{{ photo.media_url}}" alt="{{ photo.caption }}" />
+            <img src="{{ photo.local_url}}" alt="{{ photo.caption }}" />
           </li>
           {% endfor %}
         </ul>

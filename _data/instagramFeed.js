@@ -1,3 +1,4 @@
+const fs = require("fs");
 const Cache = require("@11ty/eleventy-cache-assets");
 
 module.exports = async () => {
@@ -9,5 +10,16 @@ module.exports = async () => {
     }
   );
 
-  return data;
+  for (const image of data) {
+    const source = image.media_url;
+    const localUrl = `images/instagram/${image.id}.jpeg`;
+    const imageBuffer = await Cache(source, { duration: "1y", type: "buffer" });
+    fs.mkdirSync("images/instagram", { recursive: true });
+    fs.writeFileSync(localUrl, imageBuffer);
+  }
+
+  return data.map(image => {
+    image.local_url = `images/instagram/${image.id}.jpeg`;
+    return image;
+  });
 };
