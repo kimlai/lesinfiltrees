@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/cloudinaried/*"
+  to = """\
+    https://res.cloudinary.com/kimlai/image/fetch/\
+    q_auto,f_auto,h_600,w_600,c_fit/\
+    https://elated-poincare-f40c13.netlify.app/:splat\
+    """
+  status = 200

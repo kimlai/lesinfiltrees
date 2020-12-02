@@ -31,7 +31,11 @@
         <ul role="list">
           {% for photo in instagramFeed %}
           <li>
-            <img src="{{ photo.local_url}}" alt="{{ photo.caption }}" />
+            <img
+              src="{{ photo.local_url | imageUrl }}"
+              alt="{{ photo.caption }}"
+              loading="lazy"
+            />
           </li>
           {% endfor %}
         </ul>
