@@ -20,6 +20,11 @@ a:visited {
   color: inherit;
 }
 
+img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .flow > * + * {
   margin-top: var(--flow-margin, 1rem);
 }
