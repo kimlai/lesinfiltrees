@@ -1,18 +1,13 @@
 const Cache = require("@11ty/eleventy-cache-assets");
 
-const username = "lesinfiltrees";
-
 module.exports = async () => {
-  const {
-    graphql: {
-      user: {
-        edge_owner_to_timeline_media: { edges }
-      }
+  const { data } = await Cache(
+    `https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=${process.env.INSTAGRAM_TOKEN}`,
+    {
+      duration: "1d",
+      type: "json"
     }
-  } = await Cache(`https://www.instagram.com/${username}/?__a=1`, {
-    duration: "1d",
-    type: "json"
-  });
+  );
 
-  return edges.map(edge => edge.node);
+  return data;
 };
