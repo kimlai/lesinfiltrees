@@ -1,6 +1,8 @@
 const fs = require("fs");
 const Cache = require("@11ty/eleventy-cache-assets");
 
+const excludedPhotos = ["17865418085150958"];
+
 module.exports = async () => {
   const { data } = await Cache(
     `https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=${process.env.INSTAGRAM_TOKEN}`,
@@ -18,8 +20,10 @@ module.exports = async () => {
     fs.writeFileSync(localUrl, imageBuffer);
   }
 
-  return data.map(image => {
-    image.local_url = `images/instagram/${image.id}.jpeg`;
-    return image;
-  });
+  return data
+    .filter(({ id }) => !excludedPhotos.includes(id))
+    .map(image => {
+      image.local_url = `images/instagram/${image.id}.jpeg`;
+      return image;
+    });
 };
