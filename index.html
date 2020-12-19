@@ -11,11 +11,13 @@
     <ul role="list">
       {% for photo in instagramFeed %}
       <li>
-        <img
-          src="{{ photo.local_url | imageUrl }}"
-          alt="{{ photo.caption }}"
-          loading="lazy"
-        />
+        <a href="{{ photo.permalink }}">
+          <img
+            src="{{ photo.local_url | imageUrl }}"
+            alt="{{ photo.caption }}"
+            loading="lazy"
+          />
+        </a>
       </li>
       {% endfor %}
     </ul>

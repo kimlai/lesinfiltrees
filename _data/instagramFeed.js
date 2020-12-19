@@ -5,7 +5,7 @@ const excludedPhotos = ["17865418085150958"];
 
 module.exports = async () => {
   const { data } = await Cache(
-    `https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=${process.env.INSTAGRAM_TOKEN}`,
+    `https://graph.instagram.com/me/media?fields=id,caption,media_url,permalink&access_token=${process.env.INSTAGRAM_TOKEN}`,
     {
       duration: "1d",
       type: "json"
