@@ -9,6 +9,6 @@ collections:
     files:
     - name: "/"
       label: "Accueil"
-      file:  "content/home.yml"
+      file:  "pages/home.md"
       fields:
         - {label: Texte, name: body, widget: markdown}

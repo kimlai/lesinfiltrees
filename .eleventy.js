@@ -1,5 +1,5 @@
 module.exports = config => {
-  config.setTemplateFormats(["html"]);
+  config.setTemplateFormats(["html", "md"]);
 
   ["images", "css", "js", "admin"].forEach(folder => {
     config.addPassthroughCopy(folder);
@@ -7,7 +7,7 @@ module.exports = config => {
   });
 
   config.addFilter("imageUrl", url =>
-    process.env.CONTEXT === "production" ? `/cloudinaried/${url}` : url
+    process.env.CONTEXT === "production" ? `/cloudinaried/${url}` : `/${url}`
   );
 
   return {
