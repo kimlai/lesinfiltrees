@@ -2,6 +2,7 @@ backend:
   name: git-gateway
 
 media_folder: "images/uploads"
+site_url: https://lesinfiltrees.fr
 
 collections:
   - name: "pages"
