@@ -1,13 +1,15 @@
 module.exports = config => {
   config.setTemplateFormats(["html"]);
-  config.addPassthroughCopy("images");
-  config.addPassthroughCopy("css");
-  config.addPassthroughCopy("js");
-  config.addWatchTarget("css");
-  config.addWatchTarget("js");
+
+  ["images", "css", "js", "admin"].forEach(folder => {
+    config.addPassthroughCopy(folder);
+    config.addWatchTarget(folder);
+  });
+
   config.addFilter("imageUrl", url =>
     process.env.CONTEXT === "production" ? `/cloudinaried/${url}` : url
   );
+
   return {
     htmlTemplateEngine: "njk"
   };
