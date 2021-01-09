@@ -4,7 +4,7 @@
   <nav>
     <ul>
       {% for customPage in collections.customPages %}
-      <li>
+      <li {% if page.url == customPage.url %} aria-current="page"{% endif %}>
         <a href="{{ customPage.url }}">
           {{ customPage.data.title }}
         </a>
