@@ -24,4 +24,4 @@ collections:
     fields:
       - {label: Titre, name: title, widget: string}
       - {label: Texte, name: body, widget: markdown}
-      - {name: layout, widget: hidden, default: "layouts/base.html"}
+      - {name: layout, widget: hidden, default: "layouts/page.html"}
