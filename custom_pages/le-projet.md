@@ -17,6 +17,7 @@ Une association, La Cambuse, a été créée en soutien au projet, elle a vocati
 
 ## L’équipe
 
+
 ### Julie Rouan
 
 Investie dans le développement de modèles solidaires depuis plus de 15 ans, dont 10 voués aux circuits alimentaires justes et de goût, elle a exploré différentes pratiques : modèles coopératifs, agriculture urbaine, recherche de terrain auprès du monde agricole (Confédération paysanne, La Ruche qui dit Oui!) écriture (articles, nouvelles, livre de cuisine), film documentaire (Ateliers Varan), cuisine événementielle et associative (Slowfood). Après avoir fermenté toutes sortes de choses dans sa cuisine ces dernières années, elle en sort aujourd’hui pour partager ses expérimentations dans d’autres cuisines, avec des maraîchers, des cuisiniers amateurs et professionnels, des mangeurs curieux.
