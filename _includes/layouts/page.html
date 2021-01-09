@@ -1,4 +1,18 @@
 {% extends "layouts/base.html" %} {% block content %}
+<header>
+  <a href="/">Les infiltrées</a>
+  <nav>
+    <ul>
+      {% for customPage in collections.customPages %}
+      <li>
+        <a href="{{ customPage.url }}">
+          {{ customPage.data.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
 <main>
   <article class="flow">
     <h1>{{ title }}</h1>

@@ -1,10 +1,23 @@
 {% extends "layouts/base.html" %} {% block content %}
-<main class="flow">
+<main class="flow home">
+  <section class="hero">
+    <a href="/">
+      <h1>Les infiltrées</h1>
+    </a>
+    <nav>
+      <ul>
+        {% for customPage in collections.customPages %}
+        <li>
+          <a href="{{ customPage.url }}">
+            {{ customPage.data.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </section>
   <section class="flow">
-    <h1>Les infiltrées</h1>
-    <div class="flow">
-      {{ content | safe }}
-    </div>
+    {{ content | safe }}
   </section>
   <section class="instagram-feed flow" style="--flow-margin: 5rem">
     <ul role="list">

@@ -10,6 +10,10 @@ module.exports = config => {
     process.env.CONTEXT === "production" ? `/cloudinaried/${url}` : `/${url}`
   );
 
+  config.addCollection("customPages", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("custom_pages/*.md");
+  });
+
   return {
     htmlTemplateEngine: "njk"
   };
