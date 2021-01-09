@@ -5,11 +5,22 @@ media_folder: "images/uploads"
 site_url: https://lesinfiltrees.fr
 
 collections:
-  - name: "pages"
-    label: Pages
+  - name: pages
+    label: Pages prédéfinies
+    description:
+      "Vous pouvez modifier le contenu de ces pages, mais vous ne pouvez
+      ni en ajouter ni en supprimer"
     files:
-    - name: "/"
+    - name: "home"
       label: "Accueil"
       file:  "pages/home.md"
       fields:
         - {label: Texte, name: body, widget: markdown}
+  - name: custom_pages
+    label: Pages
+    label_singular: Page
+    folder: pages
+    create: true
+    fields:
+      - {label: Titre, name: title, widget: string}
+      - {label: Texte, name: body, widget: markdown}
