@@ -1,5 +1,5 @@
 ---
-title: La production / Nos produits
+title: Nos produits
 layout: layouts/page.html
 ---
 

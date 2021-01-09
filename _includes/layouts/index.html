@@ -1,9 +1,6 @@
 {% extends "layouts/base.html" %} {% block content %}
-<main class="flow home">
-  <section class="hero">
-    <a href="/">
-      <h1>Les infiltrées</h1>
-    </a>
+<div class="home">
+  <header>
     <nav>
       <ul>
         {% for customPage in collections.customPages %}
@@ -15,31 +12,41 @@
         {% endfor %}
       </ul>
     </nav>
-  </section>
-  <section class="flow">
-    {{ content | safe }}
-  </section>
-  <section class="instagram-feed flow" style="--flow-margin: 5rem">
-    <ul role="list">
-      {% for photo in instagramFeed %}
-      <li>
-        <a href="{{ photo.permalink }}">
-          <img
-            src="{{ photo.local_url | imageUrl }}"
-            alt="{{ photo.caption }}"
-            loading="lazy"
-          />
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-    <div class="cta" style="--flow-margin: 2rem">
-      <a href="https://instagram.com/lesinfiltrees"
-        >Suivez-nous sur Instagram 🔗</a
-      >
-    </div>
-  </section>
-</main>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero--inner">
+        <h1>Les infiltrées</h1>
+        <div>Atelier artisanal de fermentation à Marseille</div>
+      </div>
+    </section>
+    <section>
+      <article class="center">
+        {{ content | safe }}
+      </article>
+    </section>
+    <section class="instagram-feed">
+      <ul role="list">
+        {% for photo in instagramFeed %}
+        <li>
+          <a href="{{ photo.permalink }}">
+            <img
+              src="{{ photo.local_url | imageUrl }}"
+              alt="{{ photo.caption }}"
+              loading="lazy"
+            />
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      <div>
+        <a href="https://instagram.com/lesinfiltrees"
+          >Suivez-nous sur Instagram 🔗</a
+        >
+      </div>
+    </section>
+  </main>
+</div>
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
