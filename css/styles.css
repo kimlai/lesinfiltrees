@@ -35,6 +35,13 @@ img {
   margin-top: var(--flow-margin, 1rem);
 }
 
+.flow > * + h2 {
+  margin-top: 2rem;
+}
+.flow > * + h3 {
+  margin-top: 1.5rem;
+}
+
 .instagram-feed ul {
   padding: 0;
   margin-left: 0;
