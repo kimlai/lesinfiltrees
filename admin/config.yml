@@ -19,7 +19,7 @@ collections:
   - name: custom_pages
     label: Pages
     label_singular: Page
-    folder: pages
+    folder: custom_pages
     create: true
     fields:
       - {label: Titre, name: title, widget: string}
