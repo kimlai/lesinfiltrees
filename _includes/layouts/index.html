@@ -25,24 +25,26 @@
         {{ content | safe }}
       </article>
     </section>
-    <section class="instagram-feed">
-      <ul role="list">
-        {% for photo in instagramFeed %}
-        <li>
-          <a href="{{ photo.permalink }}">
-            <img
-              src="{{ photo.local_url | imageUrl }}"
-              alt="{{ photo.caption }}"
-              loading="lazy"
-            />
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-      <div>
-        <a href="https://instagram.com/lesinfiltrees"
-          >Suivez-nous sur Instagram 🔗</a
-        >
+    <section>
+      <div class="instagram-feed">
+        <ul role="list">
+          {% for photo in instagramFeed %}
+          <li>
+            <a href="{{ photo.permalink }}">
+              <img
+                src="{{ photo.local_url | imageUrl }}"
+                alt="{{ photo.caption }}"
+                loading="lazy"
+              />
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        <div class="center">
+          <a href="https://instagram.com/lesinfiltrees"
+            >Suivez-nous sur Instagram 🔗</a
+          >
+        </div>
       </div>
     </section>
   </main>

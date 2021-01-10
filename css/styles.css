@@ -62,14 +62,11 @@ nav ul li {
   border-bottom: 2px dotted;
 }
 
-main {
-  padding-bottom: 8rem;
-}
-
 .center {
   max-width: 65ch;
   margin: 0 auto;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 article > * + * {
@@ -84,30 +81,23 @@ article > h2 + h3 {
   margin-top: 2.5rem;
 }
 
-.home section + section {
-  margin-top: 10rem;
-}
-
 .home header {
   justify-content: flex-end;
 }
 
-.hero {
-  margin-top: 7rem;
-  display: grid;
-  place-items: center;
+.home section {
+  padding: 7rem 1rem;
 }
 
-.hero nav {
-  margin-top: 2.5rem;
-}
-.hero nav ul {
-  justify-content: flex-end;
+.hero {
+  display: grid;
+  place-items: center;
 }
 
 .hero a {
   text-decoration: none;
 }
+
 .hero a:hover {
   text-decoration: underline;
 }
@@ -123,7 +113,6 @@ article > h2 + h3 {
 }
 
 .instagram-feed ul {
-  max-width: 100ch;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
@@ -132,6 +121,10 @@ article > h2 + h3 {
   grid-gap: 1rem;
 }
 
-article h1 {
-  margin-top: 1rem;
+.custom-page article {
+  padding-bottom: 8rem;
+}
+
+.custom-page article h1 {
+  margin-top: 4rem;
 }
