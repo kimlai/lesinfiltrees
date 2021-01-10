@@ -96,6 +96,10 @@ article > h2 + h3 {
   place-items: center;
 }
 
+.hero--inner > * + * {
+  margin-top: 1rem;
+}
+
 .hero a {
   text-decoration: none;
 }
