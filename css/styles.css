@@ -144,5 +144,6 @@ article > h2 + h3 {
 }
 
 .bubble {
-  animation: linear infinite bubbleup;
+  animation: infinite bubbleup;
+  animation-timing-function: steps(40, end);
 }
