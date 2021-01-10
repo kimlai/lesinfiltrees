@@ -1,16 +1,16 @@
 :root {
   --color-black-light: #303030;
   --color-black: #101010;
+  font-size: calc(1em + 0.1vw);
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: calc(1rem + 0.15vw);
   color: var(--color-black-light);
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 6rem;
   font-family: "Amatic SC";
   line-height: 1;
 }
@@ -45,7 +45,7 @@ header nav a:hover {
 }
 
 nav {
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 nav ul {
@@ -89,6 +89,10 @@ article > h2 + h3 {
 
 .home section {
   padding: 7rem 1rem;
+}
+.home section article {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .hero {
