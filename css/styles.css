@@ -128,3 +128,19 @@ article > h2 + h3 {
 .custom-page article h1 {
   margin-top: 4rem;
 }
+
+.bubble {
+  position: fixed;
+  border-radius: 100%;
+  border: 1px solid #bbb;
+}
+
+@keyframes bubbleup {
+  to {
+    transform: translate(var(--translateX), -100vh);
+  }
+}
+
+.bubble {
+  animation: linear infinite bubbleup;
+}
