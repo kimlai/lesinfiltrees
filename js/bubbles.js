@@ -14,6 +14,11 @@ const startBubbling = () => {
     element.style["animation-delay"] = `${randomInt(500)}ms`;
     element.style["animation-duration"] = `${450 + randomInt(100)}ms`;
     element.style.setProperty("--translateX", `${-3 + randomInt(6)}px`);
+    element.dataset.iterations = 0;
+
+    element.addEventListener("animationiteration", () => {
+      element.dataset.iterations = parseInt(element.dataset.iterations) + 1;
+    });
 
     document.body.appendChild(element);
   }
@@ -21,8 +26,11 @@ const startBubbling = () => {
 
 const stopBubbling = () => {
   document.querySelectorAll(".bubble").forEach(element => {
-    element.addEventListener("animationend", () => element.remove());
-    element.style["animation-iteration-count"] = 5;
+    element.style["animation-iteration-count"] =
+      parseInt(element.dataset.iterations) + 3;
+    element.addEventListener("animationend", () => {
+      element.remove();
+    });
   });
 };
 
