@@ -1,5 +1,6 @@
 ---
 title: Nos produits
+navigation: 2
 layout: layouts/page.html
 ---
 
