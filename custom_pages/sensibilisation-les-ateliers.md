@@ -2,6 +2,7 @@
 title: Les Ateliers
 navigation: 3
 layout: layouts/page.html
+permalink: "{{ page.fileSlug }}/"
 ---
 
 Organiser et participer à des événements pour cuisiner et faire déguster la richesse et la diversité des produits fermentés : repas associatifs, marchés, festivals...

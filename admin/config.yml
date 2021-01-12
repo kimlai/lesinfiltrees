@@ -26,3 +26,4 @@ collections:
       - {label: Navigation, name: navigation, widget: number, hint: "Position de la page dans la barre de navigation", value_type: int, min: 1}
       - {label: Texte, name: body, widget: markdown}
       - {name: layout, widget: hidden, default: "layouts/page.html"}
+      - {name: permalink, widget: hidden, default: "{{ page.fileSlug}}/"}

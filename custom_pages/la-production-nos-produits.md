@@ -2,6 +2,7 @@
 title: Nos produits
 navigation: 2
 layout: layouts/page.html
+permalink: "{{ page.fileSlug }}/"
 ---
 
 ## Pourquoi la fermentation ?
