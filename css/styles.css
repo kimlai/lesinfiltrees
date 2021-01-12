@@ -137,6 +137,7 @@ article > h2 + h3 {
 
 .custom-page article h1 {
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .bubble {
