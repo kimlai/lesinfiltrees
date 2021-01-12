@@ -1,5 +1,6 @@
 ---
 title: Le projet
+navigation: 1
 layout: layouts/page.html
 ---
 
