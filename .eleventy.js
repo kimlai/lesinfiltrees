@@ -11,7 +11,9 @@ module.exports = config => {
   );
 
   config.addCollection("customPages", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("custom_pages/*.md");
+    return collectionApi
+      .getFilteredByGlob("custom_pages/*.md")
+      .sort((a, b) => a.navigation < b.navigation);
   });
 
   return {
