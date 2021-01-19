@@ -8,7 +8,7 @@ permalink: "{{ page.fileSlug }}/"
 
 Amateur.e.s de produits fermentés, c’est après plusieurs années d'expérimentation que nous décidons de les mettre au centre d'un projet fin 2020 à Marseille. 
 
-## L'intention 
+## Le projet, concrètement
 
 Créer un atelier artisanal et local pluriactif  autour de la fermentation :
 
@@ -21,8 +21,6 @@ Proposer des **prestations** à façon pour des maraichers et des restaurateurs
 Organiser des **ateliers** de fabrication et de sensibilisation à destination des particuliers, des associations, des écoles pour apprendre à fermenter et à cuisiner les produits fermentés, échanger sur les traditions culturelles de fermentation domestique.
 
 Participer à la création de filières de proximité. 
-
-
 
 ## Vision
 
