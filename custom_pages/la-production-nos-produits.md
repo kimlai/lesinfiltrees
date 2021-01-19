@@ -1,9 +1,11 @@
 ---
-title: Nos produits
+title: Nos activités
 navigation: 2
 layout: layouts/page.html
 permalink: "{{ page.fileSlug }}/"
 ---
+##  La fabrication de boissons et aliments fermentés
+
 Créer des recettes et préparer des boissons, légumes et condiments fermentés, notamment : Une Ginger Beer et des Tonics sans alcool naturellement pétillants, des condiments : miso, ketchup, sauce pimentée, pickles, olives, des légumes préparés qui peuvent entrer dans la composition de salades, plats, sandwichs, bouillons…
 
 ## Pour qui ?
