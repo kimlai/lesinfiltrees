@@ -4,10 +4,9 @@ navigation: 1
 layout: layouts/page.html
 permalink: "{{ page.fileSlug }}/"
 ---
-
 ## Historique
 
-Amateurs de produits fermentés depuis plus dix ans, c’est après plusieurs années d'expérimentation que le projet prend forme fin 2020 à Marseille.
+Amateur.e.s de produits fermentés, c’est après plusieurs années d'expérimentation que nous décidons de les mettre au centre d'un projet fin 2020 à Marseille. 
 
 ## Vision
 
@@ -17,7 +16,7 @@ Derrière ce projet, il y a l’envie de contribuer à la réappropriation de no
 
 Savoir préparer des conserves lacto-fermentées et surtout savoir comment les utiliser dans la cuisine quotidienne est une façon de se réapproprier son alimentation et de développer une autonomie vis- à- vis de l’agro-industrie alimentaire.
 
-Une association, La Cambuse, a été créée en soutien au projet, elle a vocation à porter la vision et notamment les activités de sensibilisation.
+L'association La Cambuse a été créée en soutien au projet, elle a vocation à porter la vision et notamment les activités de sensibilisation.
 
 ## L’équipe
 
