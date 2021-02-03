@@ -14,14 +14,14 @@ Pratiquée pendant des siècles de façon empirique avec toutes sortes d’alime
 Beaucoup de produits industriels que nous consommons sont inspirés de produits traditionnellement lacto-fermentés : pickles, charcuteries, fromages, yaourts, bières, vin, pain, choucroute, ketchup, moutarde, sauce soja...
 La plupart d’entre eux sont désormais préparés sans fermentation, pasteurisés, saturés en sucre, sel, gras et exhausteurs de goûts artificiels.
 
-Saines lectures, bibles de chevet et références variées :
+## Références et lectures 
 
-\- Fermentations ! , Sandor Ellix Katz
+\- Fermentations ! , *Sandor Ellix Katz*
 
-\- Ni cru Ni cuit  Histoire et civilisation de l'aliment fermenté, Marie-Claire Frédéric 
+\- Ni cru Ni cuit  Histoire et civilisation de l'aliment fermenté, *Marie-Claire Frédéric* 
 
-\- Le guide de la fermentation du Noma, René Redzepi & David Zilber
+\- Le guide de la fermentation du Noma, *René Redzepi & David Zilber*
 
-\- [Projet FLEGME](https://www.vegepolys-valley.eu/media/flegme_flyer_191007.pdf), porté par VEGEPOLYS VALLEY avec une coordination scientifiqueInra
+\- [Projet FLEGME](https://www.vegepolys-valley.eu/media/flegme_flyer_191007.pdf), porté par VEGEPOLYS VALLEY avec une coordination scientifique Inra
 
 \- [Les fermentations alimentaires](https://ensaia.univ-lorraine.fr/sites/ensaia.univ-lorraine.fr/files/users/telechargements/rapport_final_fermentation2.pdf) Synthèse bibliographique, Université de Lorraine
