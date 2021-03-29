@@ -1,5 +1,5 @@
 ---
-title: Les Ateliers
+title: Les ateliers
 navigation: 3
 layout: layouts/page.html
 permalink: "{{ page.fileSlug }}/"
