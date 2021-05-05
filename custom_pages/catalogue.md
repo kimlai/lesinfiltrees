@@ -16,8 +16,12 @@ Acidulée, légèrement poivrée
 
 Ingrédients : eau, gingembre bio, citron ou citron bergamote bio (selon la saison), sucre blond bio, plantes
 
-* ### Bitter Tonic Agrumes 
+![](/images/uploads/gingerbeerpic.png)
+
+* ### Bitter Tonic Agrumes
 
  Délicatement amer, aromatique 
 
 Ingrédients : eau, gingembre bio, jus et zestes d’agrumes bio, sucre blond bio, plantes, gentiane
+
+![](/images/uploads/tonicpic.png)
