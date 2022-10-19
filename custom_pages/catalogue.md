@@ -1,6 +1,6 @@
 ---
 title: Catalogue
-navigation: 1
+navigation: 4
 layout: layouts/page.html
 permalink: "{{ page.fileSlug}}/"
 ---
