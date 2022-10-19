@@ -1,6 +1,6 @@
 ---
 title: La lacto-fermentation
-navigation: 4
+navigation: 3
 layout: layouts/page.html
 permalink: "{{ page.fileSlug}}/"
 ---
