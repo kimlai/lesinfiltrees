@@ -8,8 +8,6 @@ permalink: "{{ page.fileSlug }}/"
 
 Créer des recettes et préparer des boissons, légumes et condiments fermentés, notamment :  Ginger Beer et des Tonic sans alcool naturellement pétillants, des condiments : miso, ketchup, sauce pimentée, pickles, olives, des légumes préparés qui peuvent entrer dans la composition de salades, plats, sandwichs, bouillons, choucroutes, kimchi...
 
-* ### Prestations de service à façon
-
 Les Infiltrées proposent un service de transformation à façon pour les maraîcher.e.s à proximité qui veulent valoriser leur production tout en limitant les risques d’invendus.
 Pour les professionnels de la restauration, un service de recettes personnalisées pour donner une place aux produits fermentés locaux en cuisine, des boissons fermentées sur place à servir en pression ou au verre.
 
