@@ -15,12 +15,8 @@ Pour les professionnels de la restauration, un service de recettes personnalisé
 
 * ### Ateliers collectifs de lacto-fermentation
 
-Organiser et participer à des événements pour cuisiner et faire déguster la richesse et la diversité des produits fermentés : repas associatifs, marchés, festivals...
-
-Animer des ateliers pour découvrir, exercer son palais, préparer et apprendre à cuisiner les produits fermentés.
-
-Organiser des rencontres participatives pour partager et transmettre les savoir-faire existants des particuliers, restaurateurs et paysans, les pratiques traditionnelles et familiales, redécouvrir des productions culturelles anciennes.
-
 Depuis 2020, nous animons régulièrement des ateliers en partenariat avec des centres sociaux, associations ou organismes impliqués dans la transition alimentaire ( Le Bouillon de Noailles, la Cité de l'Agriculture, Cocovelten,  Centres socio-culturels de Marseille) ainsi que dans le cadre d'évènements ( Babelsunciades, 48h de l'Agriculture urbaine).  Nous pouvons en organiser sur demande, selon le format souhaité. Nous pouvons également organiser des ateliers participatifs pour valoriser des légumes invendus, avec lesquels les participants pourront repartir, une fois transformés ensemble !
 
-**Pour : Particuliers, associations, écoles, collèges, organismes de formation aux métiers de bouche, centres sociaux, entreprises...**
+Ce sont autant d'opportunités de  faire déguster la richesse et la diversité des produits fermentés, découvrir, exercer son palais, préparer et apprendre à cuisiner les produits fermentés, transmettre les savoir-faire existants des particuliers, restaurateurs et paysans, les pratiques traditionnelles et familiales, redécouvrir des productions culturelles anciennes.
+
+**Pour : Particuliers, associations, écoles, collèges, organismes de formation aux métiers de bouche, centres sociaux, entreprises, évènements, festivals**
