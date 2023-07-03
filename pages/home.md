@@ -2,7 +2,7 @@
 layout: layouts/index.html
 permalink: /
 ---
-**Les Infiltrées** est un atelier artisanal de lacto-fermentation en cours de création à Marseille. 
+**Les Infiltrées** est un atelier artisanal de lacto-fermentation basé à Marseille. 
 
 Nous avons choisi la lacto-fermentation comme méthode de transformation et de conservation de légumes, fruits, condiments, sauces, pickles et boissons, en travaillant notamment au service de maraîchers, restaurants et épiceries engagés. 
 
