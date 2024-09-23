@@ -1,11 +1,14 @@
 ---
-title: "Les betteraves au céleri : recette éprouvée avec les Insatiables à la
-  Ferme du Roy d’Espagne"
+title: "Les betteraves au céleri "
 navigation: 5
 layout: layouts/page.html
 permalink: "{{ page.fileSlug}}/"
 ---
-Pour 1 pot type Le Parfait de 1 litre, lavé et rincé, avec son joint en caoutchouc : 
+## Recette éprouvée avec les Insatiables à la Ferme du Roy d’Espagne
+
+
+
+Pour 1 pot type Le Parfait de 1 litre, lavé et rincé, avec son joint en caoutchouc 
 
 ![](/images/uploads/betteraves.jpeg)
 
@@ -18,8 +21,6 @@ Environ 1 kg  de betterave crue
 3 branches de céleri 
 
 20 - 30 g de sel non traité
-
-
 
 Brosser et rincer les betteraves( pas besoin de les éplucher si elles ont été cultivées sans intrants chimiques) et le céleri. 
 
