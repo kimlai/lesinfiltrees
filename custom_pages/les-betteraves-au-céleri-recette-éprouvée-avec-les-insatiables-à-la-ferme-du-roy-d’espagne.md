@@ -7,19 +7,17 @@ permalink: "{{ page.fileSlug}}/"
 ---
 ## Recette éprouvée avec les Insatiables à la Ferme du Roy d’Espagne
 
-
-
 Pour 1 pot type Le Parfait de 1 litre, lavé et rincé, avec son joint en caoutchouc 
 
 ![](/images/uploads/betteraves.jpeg)
 
-Environ 1 kg  de betterave crue
+1 kg de betterave crue
+
+3 branches de céleri 
 
 3 ou 4 gousses d’ail 
 
 2 cuillers à café de graines de coriandre
-
-3 branches de céleri 
 
 20 - 30 g de sel non traité
 
@@ -35,4 +33,4 @@ Fermer le bocal avec son joint et laisser fermenter au moins 3 semaines à temp�
 
 Une fois ouvert, vous pouvez le conserver ( longtemps également) au réfrigérateur, ou même à température ambiante. Le goût évolue au fil du temps, et plus rapidement à température ambiante. L’acidité engendrée par la fermentation lactique, entre autres, permettra de conserver vos légumes. 
 
-Vous pouvez les utiliser crues en salade, avec juste un peu d’huile, mixées avec de l’huile et/ou du fromage frais pour tartiner du pain ou y tremper ce que bon vous semble. Le jus fera office d’assaisonnement, ou de jus de légumes à boire bien frais.  Enfin, on peut également les transformer en soupe, en bouillon, en bortsch.
+Vous pouvez les manger crues en salade, avec juste un peu d’huile, mixées avec de l’huile ou du fromage frais pour tartiner sur du pain ou y tremper ce que bon vous semble. Le jus fera office d’assaisonnement, ou de jus de légumes à boire bien frais.  Enfin, on peut également les transformer en soupe, en bouillon, en bortsch.
