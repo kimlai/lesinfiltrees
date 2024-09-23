@@ -1,7 +1,7 @@
 ---
 title: Nos activités
 navigation: 2
-hidden: true
+hidden: false
 layout: layouts/page.html
 permalink: "{{ page.fileSlug }}/"
 ---
