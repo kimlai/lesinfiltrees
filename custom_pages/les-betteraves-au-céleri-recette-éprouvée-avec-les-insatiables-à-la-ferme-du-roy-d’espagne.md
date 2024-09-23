@@ -1,6 +1,7 @@
 ---
 title: "Les betteraves au céleri "
 navigation: 5
+hidden: true
 layout: layouts/page.html
 permalink: "{{ page.fileSlug}}/"
 ---
