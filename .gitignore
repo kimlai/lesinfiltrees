@@ -3,3 +3,6 @@ _site
 .cache
 .env
 images/instagram
+
+# Local Netlify folder
+.netlify

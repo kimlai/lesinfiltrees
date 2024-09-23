@@ -24,6 +24,7 @@ collections:
     fields:
       - {label: Titre, name: title, widget: string}
       - {label: Navigation, name: navigation, widget: number, hint: "Position de la page dans la barre de navigation", value_type: int, min: 1}
+      - {label: "Page cachée", name: "hidden", widget: "boolean", default: false}
       - {label: Texte, name: body, widget: markdown}
       - {name: layout, widget: hidden, default: "layouts/page.html"}
       - {name: permalink, widget: hidden, default: "{{ page.fileSlug}}/"}

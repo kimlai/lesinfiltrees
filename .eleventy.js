@@ -13,6 +13,7 @@ module.exports = config => {
   config.addCollection("customPages", function(collectionApi) {
     return collectionApi
       .getFilteredByGlob("custom_pages/*.md")
+      .filter(page => page.data.hidden !== true)
       .sort((a, b) => (a.data.navigation < b.data.navigation ? -1 : 1));
   });
 
