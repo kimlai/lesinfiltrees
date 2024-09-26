@@ -5,7 +5,7 @@ hidden: true
 layout: layouts/page.html
 permalink: "{{ page.fileSlug}}/"
 ---
-## Recette éprouvée avec les Insatiables à la Ferme du Roy d’Espagne
+## Recette éprouvée avec les Insatiables à la Ferme du Roy d’Espagne 
 
 Pour 1 pot type Le Parfait de 1 litre, lavé et rincé, avec son joint en caoutchouc 
 
