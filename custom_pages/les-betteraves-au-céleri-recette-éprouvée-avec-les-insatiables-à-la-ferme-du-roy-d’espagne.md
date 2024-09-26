@@ -9,7 +9,7 @@ permalink: "{{ page.fileSlug}}/"
 
 Pour 1 pot type Le Parfait de 1 litre, lavé et rincé, avec son joint en caoutchouc 
 
-![](/images/uploads/betteraves.jpeg)
+![](/images/uploads/54001408381_e5bed5c425_c.jpg)
 
 1 kg de betterave crue
 
